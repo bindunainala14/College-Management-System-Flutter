@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.college-name {
+    font-size: 1.2em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav-links li {
+    margin-right: 20px; /* Increase the margin to add more space between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.head {
+    letter-spacing: 8px;
+    color: black;
+    text-align: center;
+    margin-top: 100px; 
+    font-family: 'Georgia', sans-serif;
+    font-size: 40px;
+}
+
+.contact-item {
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-text-container img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px; /* Adjust the margin as needed */
+}

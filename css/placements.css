@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.college-name {
+    font-size: 1.2em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav-links li {
+    margin-right: 20px; /* Increase the margin to add more space between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.head {
+    letter-spacing: 8px;
+    color: black;
+    text-align: center;
+    margin-top: 100px; 
+    font-family: 'Georgia', sans-serif;
+    font-size: 40px;
+}
+
+
+.marquee-container {
+    margin-top: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee-image {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed for spacing between images */
+    max-width: 100px; /* Adjust the maximum width as needed */
+    height: auto;
+    animation: marqueeAnimation 10s linear infinite; /* Apply the animation */
+    transition: transform 0.3s ease-in-out;
+}
+
+.marquee-image:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+}
+
+@keyframes marqueeAnimation {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.placement-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.big-font {
+    font-size: 200px; /* Adjust the font size as needed */
+    color: brown;
+}
+
+.small-font {
+    font-size: 20px; /* Adjust the font size as needed */
+    color: gray; /* Adjust the color as needed */
+}
+
+.big-font1 {
+    text-align: left;
+    font-size: 100px; /* Adjust the font size as needed */
+    color: brown;
+}
+
+.small-font1 {
+    text-align: left;
+    font-size: 10px; /* Adjust the font size as needed */
+    color: gray; /* Adjust the color as needed */
+}

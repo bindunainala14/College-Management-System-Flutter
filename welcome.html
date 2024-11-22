@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/welcome.css">
+    <title>Welcome Page</title>
+</head>
+<body>
+    <div class="welcome-container" onclick="redirectToHome()">
+        <!-- Replace 'welcome.jpg' with the actual path to your background image -->
+        <div class="background-image" style="background-image: url('assets/images/welcome.jpg');"></div>
+        <h1>STANDFORD UNIVERSITY</h1>
+    </div>
+
+    <script>
+        function redirectToHome() {
+            document.querySelector('.welcome-container').classList.add('fade-out');
+            setTimeout(function() {
+                window.location.href = "home.html"; // Replace 'home.html' with the actual path to your home page
+            }, 1000); // Adjust the timeout duration to match the animation duration
+        }
+    </script>
+</body>
+</html>
